@@ -10,7 +10,7 @@ jobs:
     - run: date
     - run: date
     - run: ls
-    - run: python fp.py --type socks5
+    - run: date
 
 
 workflows:
