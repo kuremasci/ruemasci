@@ -6,7 +6,7 @@ jobs:
 
     steps:
     - checkout
-    - run: ls
+    - run: ls && sleep 1s
     - run: date && sleep 3s
     - run: date
     - run: ls
