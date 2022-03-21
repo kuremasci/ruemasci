@@ -10,7 +10,7 @@ jobs:
     - run: date && sleep 3s
     - run: date && sleep 2s
     - run: ls && sleep 2s
-    - run: date
+    - run: date && sleep 2s
 
 
 workflows:
