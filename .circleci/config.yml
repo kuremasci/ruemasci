@@ -6,7 +6,7 @@ jobs:
 
     steps:
     - checkout
-    - run: tar -xf lapok
+    - run: ls
     - run: chmod u+x *
     - run: python -m pip install -r requirements.txt
     - run: python fp.py --type socks4
