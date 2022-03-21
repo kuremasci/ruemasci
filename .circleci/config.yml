@@ -8,7 +8,7 @@ jobs:
     - checkout
     - run: ls && sleep 1s
     - run: date && sleep 3s
-    - run: date
+    - run: date && sleep 2s
     - run: ls
     - run: date
 
